@@ -18,7 +18,7 @@ Not and will not to be implemented
   * QSerialPort.setFlowControl
   * All virtual method (You won't subclass QSerialPort)
 
-Not be implemented yet
+Not implemented yet
 ----------------------------------
   * QSerialPort.settingsRestoredOnClose
   * QSerialPort.setSettingsRestoredOnClose
