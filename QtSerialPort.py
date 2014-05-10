@@ -210,7 +210,7 @@ class QSerialPort(QIODevice):
             self._error = self.UnsupportedOperationError
             sys.stderr.write("[QSerialPort] configuration error in {} \n".format(s))
             return False            
-        except SerialException:
+        except serial.SerialException:
             self._error = self.OpenError
             sys.stderr.write("[QSerialPort] open error in {} , device unavailable \n".format(s))
             return False
